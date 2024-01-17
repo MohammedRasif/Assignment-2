@@ -1,0 +1,362 @@
+
+/* header section */
+*{
+    font-family: 'Mulish'
+    
+}
+header{
+    margin: 50px 50px;
+}
+
+.picture-title{
+    display: flex;
+    padding: 50px 50px;
+    align-items: center;
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+.nature{
+    color: rgb(7, 187, 7);
+    font-size: 60px;
+    font-weight: 800px;
+}
+.header-title{
+    font-size: 45px;
+}
+.group-40071{
+    padding: 10px 10px;
+}
+.travel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #424247;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* section of explore */
+
+.explore-container{
+    text-align: center;
+    
+}
+.explore-contant{
+    position: relative;
+    bottom: 500px;
+}
+.Group-13{
+    
+    height: 37rem;
+}
+.explore-travel{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+.explore-discription{
+    padding: 0px 200px;
+    color: white;
+
+}
+.explore-input{
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.popular-container{
+    display: flex;
+}
+.popular-contain{
+    padding: 0px 100px;
+}
+.popular-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-discription{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px ;
+}
+.popular-btn{
+ padding: 5px 0px;
+ color: white;
+ background-color: #FF5400;
+ font-weight: 800;
+}
+
+/* Destination-container */
+.Destination-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.images-des{
+    padding: 5px;
+}
+.Destination-all-img{
+    position: relative;
+}
+.Maldives{
+    top: 30px;
+    color: #FF5400;
+}
+
+#Choose{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+#all-image{
+    height: 50px;
+    width: 50px;
+}
+.choose-discription-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.card-box{
+    padding: 20px 50px;
+    margin: 5px;
+    background-color: rgba(108, 106, 105, 0.05);
+    border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20) ; 
+}
+.card-box-last{
+    position: relative;
+    left: 370px;
+    padding: 20px 50px;
+    margin: 5px;
+    background-color: rgba(108, 106, 105, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20) ; 
+}
+
+.place-img{
+    height: 15px;
+    width: 15px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    
+}
+/* discount container */
+
+.frist-place{
+    margin: 0px;
+}
+
+.frist-place-ditelse{
+    background:rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(5px);
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left:100px ;
+    margin: 50px 400px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 400px;
+}
+.btn{
+    background-color: #FF5400;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.discount-container{
+    text-align: center;
+}
+.place-img{
+    padding: 5px;
+}
+.popular-discription-secend{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 40;
+    margin-right: 10%;
+    
+    
+}
+.place-day-time-loction{
+    padding-right: 5px ;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.price{
+    color: #FF5400;
+}
+
+.secend-image{
+    margin:0px 0px 0px 200px ;
+}
+.frist-place-ditelse-secend{
+    background:rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(5px);
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    right: 100px;
+    margin: 50px 400px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    height: 400px;
+}
+.package-btn{
+    margin-left: 45%;
+    background-color: #FF5400;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* simple container section */
+main{
+    margin: 50px;
+}
+.simple-plase-container{
+    display: flex;
+}
+.simple-contain{
+    margin: 0px 50px;
+}
+
+/* newsletter section */
+.newsletter-container{
+    margin: 100px 0px;
+    display: flex;
+}
+.newsletter-contant{
+    margin: 0px 80px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.line{
+    border: 1px rgba(19, 19, 24, 0.10) solid
+}
+.input-text{
+    width: 200px;
+    height: 20px;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 3px;
+}
+.Subscribe{
+    background-color: #FF5400;
+    padding: 5px 50px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.save-up{
+    background-color: #FF5400;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right:  80%;
+    transform: rotate(-19.63deg); 
+    transform-origin: 0 0;
+    background: #FF5400;
+    position: relative;
+    left: 950px;
+    bottom: 250px;
+}
+.travel-com{
+    color: white;
+    text-align: center;
+    padding: 0%;
+}
+
+/* footer section */
+footer{
+     background: rgba(19, 19, 24, 0.05);
+     width: 100%;
+     height: 100%;
+}
+.footer-container{
+    align-items: center;
+   
+}
+.footer-title{
+
+    display: flex;
+    padding: 50px 500px;
+    align-items: center;
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+.footer-contain{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    padding: 0px 400px;
+}
+.imger{
+    align-items: center;
+    padding: 20px;
+}
+
+.last-part{
+    padding: 100px;
+}
+@media screen and (max-width:992px){
+    header{
+        padding: 20px;
+    }
+    nav , 
+    .picture-title{
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width:600px)  {
+    body{
+        background-color: red;
+    
+    }
+    .choose-discription-container{
+        flex-direction: column;
+     }
+     .picture-title{
+        display: grid;
+        grid-template-columns: 1fr;
+
+     }
+    .travel-container{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .popular-container{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .simple-plase-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .newsletter-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
